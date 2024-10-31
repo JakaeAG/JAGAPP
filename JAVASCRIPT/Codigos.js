@@ -3,7 +3,7 @@
         event.preventDefault(); 
         const inputCode = document.getElementById('code').value;
         if (validCodes.includes(inputCode)) {
-            window.location.href = "../HTML/PagePrincipal.html"; 
+            window.location.href = "HTML/PagePrincipal.html"; 
         } else {
             Swal.fire({
                 title: 'ERROR!',
