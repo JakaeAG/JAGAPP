@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Productos</title>
+    <link rel="stylesheet" href="../CSS/stylesAP.css">
+</head>
+<body>
+        <form id="productForm" class="form">
+            <h1 id="heading">Registrar Producto</h1>
+            <div class="field">
+                <label for="productName">Nombre del Producto</label>
+                <input type="text" id="productName" class="input-field" placeholder="Ingrese el nombre del producto" required>
+            </div>
+            <div class="field">
+                <label for="productPrice">Precio del Producto</label>
+                <input type="number" id="productPrice" class="input-field" placeholder="Ingrese el precio" required>
+            </div>
+            <div class="field">
+                <label for="productCode">Codigo de barras</label>
+                <input type="text" id="productCode" class="input-field" placeholder="Codigo de barras" required></input>
+            </div>
+            <div class="field">
+                <label for="cantidad">Cantidad de productos</label>
+                <input type="number" id="cantidad" class="input-field" placeholder="Cantidad de productos" required></input>
+            </div>
+
+            <div class="form .btn">
+                <button type="submit" class="button1">Registrar</button>
+                <button type="button" class="button2" onclick="paginaPrincipal()">Cancelar</button>
+            </div>
+            <h2>Productos Registrados</h2>
+            <ul id="productList"></ul>
+
+            <script type="module" src="../JAVASCRIPT/añadirProd.js"></script>
+        </form>
+
+
+
+
+</body>
+</html>
