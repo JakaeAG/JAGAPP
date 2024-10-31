@@ -3,7 +3,7 @@ import { getAnalytics } from "https://www.gstatic.com/firebasejs/11.0.1/firebase
 import { getFirestore, collection, addDoc, getDocs } from "https://www.gstatic.com/firebasejs/11.0.1/firebase-firestore.js";
 
 function paginaPrincipal() {
-    window.location.href = '../HTML/index.html'; 
+    window.location.href = '../HTML/PagePrincipal.html'; 
 }
 
 var firebaseConfig = {
