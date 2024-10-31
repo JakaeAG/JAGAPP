@@ -1,1 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acceso Restringido</title>
+    <link rel="stylesheet" href="../CSS/styleCod.css ">
+</head>
+<body>
+    <div class="Titulo">
+        <h1>Código de Empresa</h1>
+    </div>
 
+<div class="form-container">
+    <form class="form" onsubmit="return false;"> 
+        <div class="form-group">
+            <label for="text">Código de Empresa</label>
+            <input type="text" id="code" placeholder="Ingresa el código aquí" required>
+        </div>
+
+        <button class="form-submit-btn" onclick="checkCode(event)">Entrar</button>
+    </form>
+</div>
+
+<div id="content"></div>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="../JAVASCRIPT/Codigos.js"></script>
+</body>
+</html>
